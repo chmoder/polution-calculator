@@ -49,7 +49,7 @@ def main():
 
     print_totals(env_history)
     print_graph(env_history)
-    print('Big O(n): more_moer, _analyse_moers')
+    print('Big O(n): more_moer; _analyse_moers')
     print('Big O(k | k == 12): environment.action')
     print('Test suggestions: update_temp for EnvironmentError; _should_turn_on_or_off for correctness')
 
