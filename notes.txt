@@ -1,0 +1,22 @@
+MOER - Marginal Operating Emissions Rate in (lbs/MWh)
+AER - Automated Emissions Reduction
+
+Simulating a simplified AER system consisting of a refrigerator connected to a smart plug in an electrical outlet.
+
+given a time series of MOERs determining when to turn on and when to turn off the smart plug.
+  - You must keep the refrigerator within proper temperature constraints while minimizing CO2 production.
+
+
+have a 1 hour forecast of the MOER values
+Can access historical MOERs
+Fridge must stay between 33F and 43F
+Fridge running temp -= 10/hr; 200W
+Fridge off temp += 5/hr; 0W
+Start Temp = 33F
+Run timeframe2019-3-1 00:00+00 to 2019-4-1 00:00+00
+
+Python 3.6
+python3 refrigerator_sim.py
+- Print the total amount of CO associated with the refrigerator’s energy usage over the
+simulation time
+- Print the total refrigerator run time
